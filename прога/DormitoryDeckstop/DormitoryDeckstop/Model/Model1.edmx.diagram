@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="25330201071f4c09a2bfaa9a5abb3be6" Name="Diagram1">
+        <EntityTypeShape EntityType="DormitoryModel.Change" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DormitoryModel.Floor" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DormitoryModel.Group" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DormitoryModel.Janitor" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DormitoryModel.Registration" Width="1.5" PointX="8" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DormitoryModel.Role" Width="1.5" PointX="5.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DormitoryModel.Rooms" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DormitoryModel.Students" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DormitoryModel.Watch" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="DormitoryModel.FK_Watch_Change" ManuallyRouted="false" />
+        <AssociationConnector Association="DormitoryModel.FK_Rooms_Floor" ManuallyRouted="false" />
+        <AssociationConnector Association="DormitoryModel.FK_Watch_Floor" ManuallyRouted="false" />
+        <AssociationConnector Association="DormitoryModel.FK_Students_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="DormitoryModel.FK_Watch_Janitor" ManuallyRouted="false" />
+        <AssociationConnector Association="DormitoryModel.FK_Role_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="DormitoryModel.FK_Students_Rooms" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
